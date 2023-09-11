@@ -5,6 +5,6 @@ A small python server to send data from SecondLife to MQTT
 
 Copy the pythonfile to a directory you have access to.
 
-#Autostart
+# Autostart
 
   sudo nano /etc/systemd/system/mqtt_http_server.service
