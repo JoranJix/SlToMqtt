@@ -1,6 +1,12 @@
 # SlToMqtt
 A small python server to send data from SecondLife to MQTT
 
+# Usage
+
+You could use this to feed databases or control you IOT from within secondlife.
+Make your own SecurityOrb and make it turn off or on a light any time someone enters your parcel.
+There are countless ideas.
+
 # Installation and Autostart
 
 Copy the pythonfile to a directory you have access to.
