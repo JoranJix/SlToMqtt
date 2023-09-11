@@ -9,14 +9,14 @@ Create a file:
 
         sudo nano /etc/systemd/system/mqtt_http_server.service
 
-Paste 
+Paste: 
 
         [Unit]
         Description=MQTT HTTP Server
         After=network.target
         
         [Service]
-        ExecStart=/usr/bin/python3 /path/to/your/python_script.py
+        ExecStart=/usr/bin/python3 /path/to/your/mqttserver.py
         WorkingDirectory=/path/to/your/script_directory
         Restart=always
         User=your_username
@@ -24,3 +24,22 @@ Paste
         
         [Install]
         WantedBy=multi-user.target
+
+Run:
+
+        sudo systemctl daemon-reload
+        sudo systemctl enable mqtt_http_server.service
+
+The server will be started every time you start your system. You can run or restart the server manually
+
+        sudo systemctl start mqtt_http_server.service
+        sudo systemctl status mqtt_http_server.service
+        sudo systemctl stop mqtt_http_server.service
+
+To test your server you can run:
+
+        curl "http://localhost:85/send_message?message=Hello%2C%20MQTT%21"
+
+You can call the lsl script from any other script by llMessageLinked(); on channel 255;
+
+        llMessageLinked(LINK_SET,255,"Hello MQTT!","/test/topic");
