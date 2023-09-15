@@ -1,5 +1,6 @@
 # SlToMqtt
 A small python server to send data from SecondLife to MQTT
+Your brokers IP!
 
 # Usage
 
