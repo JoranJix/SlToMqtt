@@ -1,7 +1,7 @@
 # SlToMqtt
 A small python server to send data from SecondLife to MQTT
 Your brokers IP!
-
+This is basicly a POC that it is possible to transmit data to MQTT.
 # Usage
 
 You could use this to feed databases or control you IOT from within secondlife.
