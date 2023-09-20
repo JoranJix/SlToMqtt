@@ -1,3 +1,4 @@
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://github.com/cinderblocks/radegast/blob/master/LICENSE.txt)
 # SlToMqtt
 A small python server to send data from SecondLife to MQTT
 Your brokers IP!
