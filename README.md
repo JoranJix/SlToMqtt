@@ -1,10 +1,9 @@
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://github.com/cinderblocks/radegast/blob/master/LICENSE.txt)
 # SlToMqtt
 A small python server to send data from SecondLife to MQTT
 Your brokers IP!
 This is basicly a POC that it is possible to transmit data to MQTT.
 # Usage
-
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://github.com/cinderblocks/radegast/blob/master/LICENSE.txt)
 You could use this to feed databases or control you IOT from within secondlife.
 Make your own SecurityOrb and make it turn off or on a light any time someone enters your parcel.
 There are countless ideas.
